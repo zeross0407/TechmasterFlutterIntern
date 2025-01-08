@@ -1,3 +1,5 @@
 # ninja log v5
-0	913	7579535461104076	CMakeFiles/native_quadratic.dir/native_add.cpp.o	4ab474d53ec154b
 918	1086	7579535463047892	C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/build/app/intermediates/cxx/RelWithDebInfo/1s5o1060/obj/x86/libnative_quadratic.so	3121d697ab6f2e5a
+0	913	7579535461104076	CMakeFiles/native_quadratic.dir/native_add.cpp.o	4ab474d53ec154b
+0	627	7580323204726303	CMakeFiles/native_quadratic.dir/de72259a84613669ae852a68b0bcc69f/fluter_intern_tech_master/native/native_module.cpp.o	720f0362482ac8ea
+628	808	7580323206708182	C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/build/app/intermediates/cxx/RelWithDebInfo/1s5o1060/obj/x86/libnative_quadratic.so	ab607ed433509ff2

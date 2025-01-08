@@ -1,18 +1,18 @@
 import 'dart:async';
 
-import 'package:fluter_intern_tech_master/2/chat_bouble.dart';
+import 'package:fluter_intern_tech_master/2/c2/chat_bouble.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:toml/toml.dart';
 import 'package:just_audio/just_audio.dart' as ja;
 
-class AudioPage extends StatefulWidget {
-  const AudioPage({super.key});
+class AudioPage2 extends StatefulWidget {
+  const AudioPage2({super.key});
   @override
-  _AudioPageState createState() => _AudioPageState();
+  _AudioPage2State createState() => _AudioPage2State();
 }
 
-class _AudioPageState extends State<AudioPage> {
+class _AudioPage2State extends State<AudioPage2> {
   ja.AudioPlayer player = ja.AudioPlayer();
   String img_url = "";
   String user = "Lan";
@@ -147,7 +147,7 @@ class _AudioPageState extends State<AudioPage> {
                         color: (all_dialog[index]['speaker'] == user)
                             ? const Color.fromARGB(255, 155, 196, 226)
                             : const Color.fromARGB(255, 216, 216, 216),
-                        is_sender: (all_dialog[index]['speaker'] != user),
+                        is_sender: (all_dialog[index]['speaker'] == user),
                       ),
                     ),
                   );

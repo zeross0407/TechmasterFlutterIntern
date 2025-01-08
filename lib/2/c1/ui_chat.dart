@@ -1,32 +1,20 @@
-import 'package:fluter_intern_tech_master/2/optimize/chat_bouble.dart';
-import 'package:fluter_intern_tech_master/2/optimize/optimize.dart';
+import 'dart:async';
+
+import 'package:fluter_intern_tech_master/2/c1/chat_bouble.dart';
+import 'package:fluter_intern_tech_master/2/c1/model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:toml/toml.dart';
 import 'package:just_audio/just_audio.dart' as ja;
 
-void main() => runApp(const Bai3());
-
-class Bai3 extends StatelessWidget {
-  const Bai3({super.key});
+class AudioPage1 extends StatefulWidget {
+  const AudioPage1({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: MyHomePage(title: 'chat bubble example'),
-    );
-  }
+  _AudioPage1State createState() => _AudioPage1State();
 }
 
-class MyHomePage extends StatefulWidget {
-  final String title;
-  const MyHomePage({super.key, required this.title});
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
+class _AudioPage1State extends State<AudioPage1> {
   static ja.AudioPlayer player = ja.AudioPlayer();
   String img_url = "";
   String user = "Lan";
@@ -38,7 +26,8 @@ class _MyHomePageState extends State<MyHomePage> {
   List<int> hight_lighting = [-1, -1];
   List<dynamic> format = [];
   List<Line_data> line_data_list = [];
-  int hl = -1;
+
+  late StreamSubscription _subscription;
   @override
   void initState() {
     super.initState();
@@ -56,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void listen_data(int hight_light_cursor) {
     const tolerance = 50;
 
-    player.positionStream.listen((position) {
+    _subscription = player.positionStream.listen((position) {
       final currentMillis = position.inMilliseconds;
 
       for (var i = 0; i < events.length; i++) {
@@ -97,6 +86,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
+  // đếm số từ và dấu
   int countWords(String input) {
     RegExp regex = RegExp(r"[\p{L}\p{N}'\-]+|[.,!?;]", unicode: true);
     List<String> matches =
@@ -104,6 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return matches.length;
   }
 
+// load dữ liệu vào model
   Future<void> prepareData() async {
     final tomlString = await rootBundle.loadString('assets/ouput.toml');
     final config = TomlDocument.parse(tomlString).toMap();
@@ -161,6 +152,7 @@ class _MyHomePageState extends State<MyHomePage> {
     int a = 0;
   }
 
+// chỉnh style cho các word
   Future<void> addStyle(
       List<dynamic> format, List<Word_data> word_data_list) async {
     for (var i = 0; i < format.length; i++) {
@@ -202,6 +194,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void dispose() {
+    _subscription.cancel();
     player.dispose();
     super.dispose();
   }

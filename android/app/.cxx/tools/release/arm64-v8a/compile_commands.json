@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/android/app/.cxx/RelWithDebInfo/1s5o1060/arm64-v8a",
-  "command": "C:\\Users\\NGUYEN~1\\AppData\\Local\\Android\\Sdk\\ndk\\231~1.777\\TOOLCH~1\\llvm\\prebuilt\\WINDOW~1\\bin\\CLANG_~1.EXE --target=aarch64-none-linux-android21 --sysroot=\"C:/Users/Nguyen Duc/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot\" -Dnative_quadratic_EXPORTS -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\native_quadratic.dir\\native_add.cpp.o -c \"C:\\Users\\Nguyen Duc\\Desktop\\FlutterInternNguyenMinhDuc\\fluter_intern_tech_master\\android\\native_add.cpp\"",
-  "file": "C:\\Users\\Nguyen Duc\\Desktop\\FlutterInternNguyenMinhDuc\\fluter_intern_tech_master\\android\\native_add.cpp"
+  "command": "C:\\Users\\NGUYEN~1\\AppData\\Local\\Android\\Sdk\\ndk\\231~1.777\\TOOLCH~1\\llvm\\prebuilt\\WINDOW~1\\bin\\CLANG_~1.EXE --target=aarch64-none-linux-android21 --sysroot=\"C:/Users/Nguyen Duc/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot\" -Dnative_quadratic_EXPORTS -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -O2 -g -DNDEBUG -fPIC -o CMakeFiles\\native_quadratic.dir\\622216b8e9bb673d70f7c3b694881203\\native\\native_module.cpp.o -c \"C:\\Users\\Nguyen Duc\\Desktop\\FlutterInternNguyenMinhDuc\\fluter_intern_tech_master\\native\\native_module.cpp\"",
+  "file": "C:\\Users\\Nguyen Duc\\Desktop\\FlutterInternNguyenMinhDuc\\fluter_intern_tech_master\\native\\native_module.cpp"
 }
 ]
