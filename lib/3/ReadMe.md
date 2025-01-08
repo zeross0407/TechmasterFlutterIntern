@@ -1,5 +1,5 @@
 # Bài 3:
-Hướng giải
+Hướng giải :
 Làm theo hướng dẫn trên viblo:
 Viết file cpp giải pt bậc 2 (chỉnh kiểu dữ liệu để có thể gọi qua
 cầu nối)
