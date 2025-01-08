@@ -1,0 +1,11 @@
+# ninja log v5
+0	1273	7580112485168996	CMakeFiles/native_quadratic.dir/native_module.cpp.o	5c51dba751fc97b9
+63	169	7579258224368288	C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/build/app/intermediates/cxx/Debug/1p6r1b3h/obj/x86/libnative_add.so	8220da2e8f12655d
+1	61	7579258223281936	CMakeFiles/native_add.dir/native_add.cpp.o	4364ee71d03649e7
+1275	1531	7580112487927370	C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/build/app/intermediates/cxx/Debug/1p6r1b3h/obj/x86/libnative_quadratic.so	18a1e5fc7c269e1e
+3	565	7579690098946466	CMakeFiles/native_quadratic.dir/native_add.cpp.o	1816b38feef580d1
+0	460	7580114992020649	CMakeFiles/native_quadratic.dir/de72259a84613669ae852a68b0bcc69f/fluter_intern_tech_master/native/native_module.cpp.o	c1901a71d3598991
+461	561	7580114993136573	C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/build/app/intermediates/cxx/Debug/1p6r1b3h/obj/x86/libnative_quadratic.so	d0710daf0d9ee3df
+4	404	7580115914139438	C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/build/app/intermediates/cxx/Debug/1p6r1b3h/obj/x86/libnative_quadratic.so	d0710daf0d9ee3df
+2	452	7580124695704853	CMakeFiles/native_quadratic.dir/de72259a84613669ae852a68b0bcc69f/fluter_intern_tech_master/native/native_module.cpp.o	c1901a71d3598991
+453	557	7580124696865361	C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/build/app/intermediates/cxx/Debug/1p6r1b3h/obj/x86/libnative_quadratic.so	d0710daf0d9ee3df

@@ -1,0 +1,3 @@
+C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/android/app/.cxx/RelWithDebInfo/1s5o1060/x86_64/CMakeFiles/native_quadratic.dir
+C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/android/app/.cxx/RelWithDebInfo/1s5o1060/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Nguyen Duc/Desktop/FlutterInternNguyenMinhDuc/fluter_intern_tech_master/android/app/.cxx/RelWithDebInfo/1s5o1060/x86_64/CMakeFiles/rebuild_cache.dir

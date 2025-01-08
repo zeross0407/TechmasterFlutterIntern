@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Nguyen Duc\\Desktop\\FlutterInternNguyenMinhDuc\\fluter_intern_tech_master\\android\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Nguyen Duc\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Nguyen Duc\\Desktop\\FlutterInternNguyenMinhDuc\\fluter_intern_tech_master\\android\\app\\.cxx\\RelWithDebInfo\\1s5o1060\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Nguyen Duc\\AppData\\Local\\Android\\sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Nguyen Duc\\Desktop\\FlutterInternNguyenMinhDuc\\fluter_intern_tech_master\\android\\app\\.cxx\\RelWithDebInfo\\1s5o1060\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native_quadratic::@6890427a1f51a3e7e1df": {
+      "artifactName": "native_quadratic",
+      "abi": "x86",
+      "output": "C:\\Users\\Nguyen Duc\\Desktop\\FlutterInternNguyenMinhDuc\\fluter_intern_tech_master\\build\\app\\intermediates\\cxx\\RelWithDebInfo\\1s5o1060\\obj\\x86\\libnative_quadratic.so",
+      "runtimeFiles": []
+    }
+  }
+}
