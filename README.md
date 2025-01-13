@@ -48,6 +48,13 @@
 - Hoạt động tốt nếu có thêm các yêu cầu xử lý trên từng ký tự. 
   - Ví dụ: Format cho 1 chữ cái.
 
+### Kết quả đạt được:
+- Load dữ liệu từ file toml để chuyển thành giao diện chat.
+- Highlight từ đang được phát từ file audio.
+- Phát file audio từ câu hội thoại được nhấn.
+- Style các từ theo format của file toml chỉ định.
+- Chuyển ảnh theo event trong file toml chỉ định.
+
 <p align="center">
   <img src="lib/2/2.gif" alt="Pendulum Simulation" width="300">
 </p>
@@ -64,6 +71,10 @@
      - Đặt file C++ vào thư mục `Runner.xcworkspace`.
      - Tạo cầu nối (dùng thư viện FFI để gọi đến thư viện `.so`).
   4. Vẽ giao diện theo đề bài yêu cầu.
+
+### Kết quả đạt được:
+- Tích hợp thư viện C vào dự án (Android + IOS).
+- Sử dụng thư viện .so qua cầu nối ffi và hiển thị kết quả lên màn hình.
 
 <p align="center">
   <img src="lib/3/3.gif" alt="Pendulum Simulation" width="300">
