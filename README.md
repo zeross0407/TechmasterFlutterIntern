@@ -11,6 +11,9 @@
 - Flutter vẽ con lắc đơn với CustomPaint.
 - Viết hàm tính tọa độ con lắc đơn (có lực cản chuyển động), đầu ra là `Offset`.
 
+### Kết quả đạt được:
+- Màn hình mô phỏng con chuyển động của con lắc đơn.
+  
 <p align="center">
   <img src="lib/1/1.gif" alt="Pendulum Simulation" width="300">
 </p>
