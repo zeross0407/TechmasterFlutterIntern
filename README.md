@@ -46,7 +46,7 @@
   - Ví dụ: Format cho 1 chữ cái.
 
 <p align="center">
-  <img src="2.gif" alt="Pendulum Simulation" width="300">
+  <img src="lib/2/2.gif" alt="Pendulum Simulation" width="300">
 </p>
 
 # Bài 3:
@@ -63,5 +63,5 @@
   4. Vẽ giao diện theo đề bài yêu cầu.
 
 <p align="center">
-  <img src="3.gif" alt="Pendulum Simulation" width="300">
+  <img src="lib/3/3.gif" alt="Pendulum Simulation" width="300">
 </p>
